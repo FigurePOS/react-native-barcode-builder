@@ -168,7 +168,7 @@ export default class Barcode extends PureComponent {
       <View style={[styles.svgContainer, backgroundStyle]}>
           <Svg
             height={this.props.height}
-            width={this.props.width}
+            width={this.state.barCodeWidth}
             fill={this.props.lineColor}>
             <Path
               d={this.state.bars.join(" ")}/>
