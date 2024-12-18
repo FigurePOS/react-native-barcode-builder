@@ -1,13 +1,13 @@
 {
-  "name": "react-native-barcode-builder",
-  "version": "1.0.5",
+  "name": "@figurepos/react-native-barcode-builder",
+  "version": "2.0.0",
   "description": "",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wonsikin/react-native-barcode-builder.git"
-  },
+  "repository": "https://github.com/FigurePOS/react-native-barcode-builder.git",
   "license": "Apache 2.0",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint ./"
   },
@@ -24,5 +24,9 @@
     "babel-eslint": "^6.1.2",
     "eslint": "^2.13.1",
     "eslint-plugin-react": "^6.8.0"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
   }
 }
